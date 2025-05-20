@@ -37,3 +37,19 @@ animals = [Dog(), Cat(), Cow()]
 # Looping through the list and calling the sound method
 for animal in animals:
     print(animal.sound())  # Output: Woof! Meow! Moo!    
+
+# Encapsulation 🔐: 
+# Restricting access to certain components of an object
+class SecretStash:
+    def __init__(self):
+        self.__chocolates = 10  # Private attribute
+
+    def take_chocolate(self):
+        if self.__chocolates > 0:
+            self.__chocolates -= 1
+            print("One chocolate taken!")
+        else:
+            print("No chocolates left")
+
+stash = SecretStash()
+stash.take_chocolate()
