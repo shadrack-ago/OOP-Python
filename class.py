@@ -31,3 +31,4 @@ def car(color, model):
 my_car = car("red", "sedan")
 print(my_car["color"])  # Output: red
 print(my_car["model"])  # Output: sedan
+
