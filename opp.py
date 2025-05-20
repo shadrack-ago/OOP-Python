@@ -20,3 +20,20 @@ ElectricCar.drive()  # Output: The blue Tesla is driving
 HybridCar.drive()  # Output: The red Toyota is driving
 
 # Polymorphism 🦄
+class Animal:
+    def sound(self):
+        pass
+class Dog(Animal):
+    def sound(self):
+        return "Woof!" 
+class Cat(Animal):
+    def sound(self):
+        return "Meow!"
+class Cow(Animal):
+    def sound(self):
+        return "Moo!"
+# Creating a list of animals
+animals = [Dog(), Cat(), Cow()]
+# Looping through the list and calling the sound method
+for animal in animals:
+    print(animal.sound())  # Output: Woof! Meow! Moo!    

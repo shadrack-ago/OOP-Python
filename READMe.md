@@ -1,6 +1,7 @@
 "learning basics in python OOP" 
 
-Inheritance 👨‍👩‍👧‍👦: Just like humans inherit traits from their parents, classes can inherit attributes and methods from other classes. This helps reduce code repetition and create a natural hierarchy in your code!
+Inheritance 👨‍👩‍👧‍👦: 
+Just like humans inherit traits from their parents, classes can inherit attributes and methods from other classes. This helps reduce code repetition and create a natural hierarchy in your code!
 
 Example: Imagine a Vehicle class with general features (like wheels). We can create subclasses like Car and Bike that inherit those features
 
