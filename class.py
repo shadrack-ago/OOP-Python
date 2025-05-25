@@ -3,12 +3,17 @@ class car:
     color = "red" #attribute
     # Method
     def drive(self):
-        print("The car is driving")
+        return{
+            print("The car is driving")
+        }
+        
 
 # Creating an object
 my_car = car()
 print(my_car.color)
-my_car.drive()        
+mark= my_car.drive() # Output: The car is driving
+# Calling the method
+print(mark)        
 
 class Car:
     def __init__(self, color, model):
